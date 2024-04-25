@@ -27,6 +27,9 @@ export default {
       console.log(index);
       this.index = index;
     }
+  },
+  beforeMount(){
+    this.randomPosition();
   }
 }
 </script>
